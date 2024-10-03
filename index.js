@@ -147,7 +147,7 @@ const check_win = () => {
 
     // Checking for a win for O in rows
     if (tic_tac_toe_board[0][0] == "O" && tic_tac_toe_board[0][1] == "O" && tic_tac_toe_board[0][2] == "O") {
-        return "X";
+        return "O";
     }
 
     else if (tic_tac_toe_board[1][0] == "O" && tic_tac_toe_board[1][1] == "O" && tic_tac_toe_board[1][2] == "O"){
